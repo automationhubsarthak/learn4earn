@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Parameterization Suite">
+  <test thread-count="2" parallel="tests" name="Parameterization Test">
+   <parameter name = "Browser1"      value = "Chrome"></parameter>
+   <parameter name = "Browser2"      value = "Firefox"></parameter>
+   <parameter name = "url"          value="https://mail.rediff.com/cgi-bin/login.cgi"></parameter>
+   <parameter name = "username"     value = "seleniumpanda@rediffmail.com"></parameter>
+   <parameter name = "password"     value = "Selenium@123"></parameter>
+  <!--    <parameter name = "signinButton" value = "//input[@class = 'signinbtn']"></parameter>
+   <parameter name = "logoutLink"   value = "rd_logout"></parameter> -->
+    
+    <classes>
+      <class name="testnxml_understanding.Rediff_TestNG_Parameterized"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

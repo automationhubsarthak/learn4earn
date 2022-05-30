@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+ 
+  <test name="FirstCode Test">
+    <classes>
+       <class name="testng_basics.FirstCode"/>
+     </classes>
+   </test>
+   
+   <test name = "Rediff_TestNG_WithValidation Test">
+   <classes>
+      <class name="testng_basics.Rediff_TestNG_WithValidation"/>
+   </classes>
+   </test>
+   
+   <test name = "Special_TestNG Test">
+     <classes>
+           <class name="testng_basics.Special_TestNG"/>
+     </classes>
+     </test>
+     
+     <test name = "Rediff_Code Test">
+     <classes>
+              <class name="testng_basics.Rediff_Code"/>
+      </classes>
+      </test>
+      
+      <test name = "Concepts_DataProvider Test">
+      <classes>
+            <class name="testng_basics.Concepts_DataProvider"/>
+      </classes>
+      </test>
+      
+      <test name = "Assertion_Concept Test">
+      <classes>
+            <class name="testng_basics.Assertion_Concept"/>
+      </classes>
+      </test>
+      
+      <test name = "ITestContext_Concepts Test">
+        <classes>
+            <class name="testng_basics.ITestContext_Concepts"/>
+        </classes>
+     </test> <!-- Test -->
+     
+  </suite> <!-- Suite -->

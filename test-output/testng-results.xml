@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="108" started-at="2022-05-26T22:36:07 EDT" finished-at="2022-05-26T22:36:08 EDT">
+    <groups>
+      <group name="linux.regression">
+        <method signature="Groups_Concepts.tc3()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc3" class="testnxml_understanding.Groups_Concepts"/>
+      </group> <!-- linux.regression -->
+      <group name="unit">
+        <method signature="Groups_Concepts.tc4()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc4" class="testnxml_understanding.Groups_Concepts"/>
+        <method signature="Groups_Concepts.tc5()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc5" class="testnxml_understanding.Groups_Concepts"/>
+      </group> <!-- unit -->
+      <group name="regression">
+        <method signature="Groups_Concepts.tc4()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc4" class="testnxml_understanding.Groups_Concepts"/>
+        <method signature="Groups_Concepts.tc5()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc5" class="testnxml_understanding.Groups_Concepts"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Groups_Concepts.tc2()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc2" class="testnxml_understanding.Groups_Concepts"/>
+        <method signature="Groups_Concepts.tc4()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc4" class="testnxml_understanding.Groups_Concepts"/>
+      </group> <!-- smoke -->
+      <group name="ClassLevelTest">
+        <method signature="Groups_Concepts.tc1()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc1" class="testnxml_understanding.Groups_Concepts"/>
+        <method signature="Groups_Concepts.tc2()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc2" class="testnxml_understanding.Groups_Concepts"/>
+        <method signature="Groups_Concepts.tc3()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc3" class="testnxml_understanding.Groups_Concepts"/>
+        <method signature="Groups_Concepts.tc4()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc4" class="testnxml_understanding.Groups_Concepts"/>
+        <method signature="Groups_Concepts.tc5()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc5" class="testnxml_understanding.Groups_Concepts"/>
+      </group> <!-- ClassLevelTest -->
+      <group name="uat">
+        <method signature="Groups_Concepts.tc5()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc5" class="testnxml_understanding.Groups_Concepts"/>
+      </group> <!-- uat -->
+      <group name="sanity">
+        <method signature="Groups_Concepts.tc2()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc2" class="testnxml_understanding.Groups_Concepts"/>
+        <method signature="Groups_Concepts.tc4()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc4" class="testnxml_understanding.Groups_Concepts"/>
+        <method signature="Groups_Concepts.tc5()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc5" class="testnxml_understanding.Groups_Concepts"/>
+      </group> <!-- sanity -->
+      <group name="windows.sanity">
+        <method signature="Groups_Concepts.tc1()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc1" class="testnxml_understanding.Groups_Concepts"/>
+      </group> <!-- windows.sanity -->
+    </groups>
+    <test name="Test" duration-ms="108" started-at="2022-05-26T22:36:07 EDT" finished-at="2022-05-26T22:36:08 EDT">
+      <class name="testnxml_understanding.Groups_Concepts">
+        <test-method status="PASS" signature="tc1()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc1" duration-ms="16" started-at="2022-05-26T22:36:08 EDT" finished-at="2022-05-26T22:36:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc2()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc2" duration-ms="2" started-at="2022-05-26T22:36:08 EDT" finished-at="2022-05-26T22:36:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc3()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc3" duration-ms="1" started-at="2022-05-26T22:36:08 EDT" finished-at="2022-05-26T22:36:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="tc4()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc4" duration-ms="8" started-at="2022-05-26T22:36:08 EDT" finished-at="2022-05-26T22:36:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method status="PASS" signature="tc5()[pri:0, instance:testnxml_understanding.Groups_Concepts@32eebfca]" name="tc5" duration-ms="2" started-at="2022-05-26T22:36:08 EDT" finished-at="2022-05-26T22:36:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+      </class> <!-- testnxml_understanding.Groups_Concepts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

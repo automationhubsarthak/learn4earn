@@ -1,0 +1,74 @@
+{
+  "testdata": [
+    {
+	  "testName": "InitilizeBrowserTest",
+      "data": [
+        {
+          "OperatingSystem": "Windows10Pro",
+          "Browser": "Chrome",
+          "username":"seleniumpanda@rediffmail.com",
+          "password":"Selenium@123"
+        },
+        {
+          "OperatingSystem": "Windows10Home",
+          "Browser": "Firefox",
+          "username":"seleniumpanda1@rediffmail.com",
+          "password":"Selenium@123"
+        },
+        {
+          "OperatingSystem": "Windows11",
+          "Browser": "Edge",
+          "username":"seleniumpanda2@rediffmail.com",
+          "password":"Selenium@123"
+        }
+      ]
+      
+    },
+     {
+      "testName": "InitializeMobileAppTest",
+      "data": [
+        {
+          "RunMode": "YES",
+          "Platform": "iOS",
+          "MobileDevice":"iphone 11",
+          "minPrice":"399$",
+          "maxPrice":"599$"
+        },
+        {
+           "RunMode": "YES",
+          "Platform": "iOS",
+          "MobileDevice":"iphone 12",
+          "minPrice":"499$",
+          "maxPrice":"699$"
+        },
+        {
+           "RunMode": "YES",
+          "Platform": "Android",
+          "MobileDevice":"SamsungGalaxy S22",
+          "minPrice":"799$",
+          "maxPrice":"1199$"
+        }
+      ]
+      
+    },
+       {
+      "testName": "BrowserMobileOperationTest",
+      "data": [
+        {
+          "OperatingSystem": "Windows10Home",
+          "Browser": "Firefox",
+          "username":"seleniumpanda1@rediffmail.com",
+          "password":"Selenium@123"
+        },
+        {
+          "RunMode": "YES",
+          "Platform": "Android",
+          "MobileDevice":"SamsungGalaxy S22",
+          "minPrice":"799$",
+          "maxPrice":"1199$"
+        }
+      ]
+      
+    }
+  ]
+}
